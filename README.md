@@ -5,7 +5,7 @@ Goでcsvを指定のheader順にしてソートして出力するプログラム
 ##Descriptioin  
 test.csvにソートしたいcsvを用意し、header.csvに指定順を用意し実行します
 
-##Requirement
+##Requirement  
 go1.12.5 windows/amd64  
 環境で動作確認しています
 
