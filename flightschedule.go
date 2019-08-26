@@ -32,9 +32,9 @@ func main(){
 	line, err = reader.Read()
 
 	//変換元のヘッダーとあるべき並び順とを参照し、sortスライスにしまう
-	for i := 0; i < len(line); i++{
-		for j := 0; j < len(template); j++{
-			if line[i] == template[j] {
+	for i := 0; i < len(template); i++{
+		for j := 0; j < len(line); j++{
+			if template[i] == line[j] {
 				sort = append(sort, j)
 				break
 			}
